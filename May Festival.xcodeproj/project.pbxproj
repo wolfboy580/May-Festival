@@ -15,6 +15,7 @@
 		1199B8D925CE6AE5008F5BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1199B8D725CE6AE5008F5BD6 /* LaunchScreen.storyboard */; };
 		1199B8E425CE6AE5008F5BD6 /* May_FestivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B8E325CE6AE5008F5BD6 /* May_FestivalTests.swift */; };
 		1199B8EF25CE6AE5008F5BD6 /* May_FestivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B8EE25CE6AE5008F5BD6 /* May_FestivalUITests.swift */; };
+		11DBCE0025D87812005E8EBB /* PopUpTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DBCDFF25D87812005E8EBB /* PopUpTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1199B8EA25CE6AE5008F5BD6 /* May FestivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "May FestivalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199B8EE25CE6AE5008F5BD6 /* May_FestivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = May_FestivalUITests.swift; sourceTree = "<group>"; };
 		1199B8F025CE6AE5008F5BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11DBCDFF25D87812005E8EBB /* PopUpTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1199B8D525CE6AE5008F5BD6 /* Assets.xcassets */,
 				1199B8D725CE6AE5008F5BD6 /* LaunchScreen.storyboard */,
 				1199B8DA25CE6AE5008F5BD6 /* Info.plist */,
+				11DBCDFF25D87812005E8EBB /* PopUpTest.swift */,
 			);
 			path = "May Festival";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				1199B8D125CE6AE0008F5BD6 /* ViewController.swift in Sources */,
 				1199B8CD25CE6AE0008F5BD6 /* AppDelegate.swift in Sources */,
+				11DBCE0025D87812005E8EBB /* PopUpTest.swift in Sources */,
 				1199B8CF25CE6AE0008F5BD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,6 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func ButtonClick2(_ sender: Any) {
+        print("the button was clicked")
+
+    }
+    @IBAction func Button3(_ sender: Any) {
+        print("the button was clicked")
+    }
     @IBAction func ButtonClick(_ sender: Any) {
         print("the button was clicked")
             
