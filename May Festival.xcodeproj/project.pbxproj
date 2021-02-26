@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		114C97B725E8A35B00FB36BB /* Pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 114C97B625E8A35B00FB36BB /* Pew.wav */; };
+		114C97BC25E8D50500FB36BB /* High Tom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114C97BB25E8D50400FB36BB /* High Tom.mp3 */; };
+		114C97C125E8D51200FB36BB /* Cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 114C97C025E8D51100FB36BB /* Cymbal.mp3 */; };
 		1199B8CD25CE6AE0008F5BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B8CC25CE6AE0008F5BD6 /* AppDelegate.swift */; };
 		1199B8CF25CE6AE0008F5BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B8CE25CE6AE0008F5BD6 /* SceneDelegate.swift */; };
 		1199B8D125CE6AE0008F5BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B8D025CE6AE0008F5BD6 /* ViewController.swift */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114C97B625E8A35B00FB36BB /* Pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Pew.wav; path = Sound/Pew.wav; sourceTree = "<group>"; };
+		114C97BB25E8D50400FB36BB /* High Tom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "High Tom.mp3"; path = "Sound/High Tom.mp3"; sourceTree = "<group>"; };
+		114C97C025E8D51100FB36BB /* Cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cymbal.mp3; path = Sound/Cymbal.mp3; sourceTree = "<group>"; };
 		1199B8C925CE6AE0008F5BD6 /* May Festival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "May Festival.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1199B8CC25CE6AE0008F5BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1199B8CE25CE6AE0008F5BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +84,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1184DC4325E89C7C00A4DF82 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		1199B8C025CE6AE0008F5BD6 = {
 			isa = PBXGroup;
 			children = (
+				114C97C025E8D51100FB36BB /* Cymbal.mp3 */,
+				114C97BB25E8D50400FB36BB /* High Tom.mp3 */,
+				114C97B625E8A35B00FB36BB /* Pew.wav */,
+				1184DC4325E89C7C00A4DF82 /* Sound */,
 				1199B8CB25CE6AE0008F5BD6 /* May Festival */,
 				1199B8E225CE6AE5008F5BD6 /* May FestivalTests */,
 				1199B8ED25CE6AE5008F5BD6 /* May FestivalUITests */,
@@ -234,9 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114C97C125E8D51200FB36BB /* Cymbal.mp3 in Resources */,
 				1199B8D925CE6AE5008F5BD6 /* LaunchScreen.storyboard in Resources */,
 				1199B8D625CE6AE5008F5BD6 /* Assets.xcassets in Resources */,
 				1199B8D425CE6AE0008F5BD6 /* Main.storyboard in Resources */,
+				114C97BC25E8D50500FB36BB /* High Tom.mp3 in Resources */,
+				114C97B725E8A35B00FB36BB /* Pew.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
